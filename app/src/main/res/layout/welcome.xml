@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+<TextView
+    android:text="P"
+    android:textColor="#3a0897"
+    android:id="@+id/p1"
+    android:layout_centerInParent="true"
+    android:textSize="34sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/p1"
+        android:text="P"
+        android:textColor="#e4e10c"
+        android:id="@+id/p2"
+        android:layout_centerHorizontal="true"
+        android:textSize="34sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/p2"
+        android:text="Y"
+        android:textColor="#9a720d"
+        android:id="@+id/y"
+        android:textSize="34sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/p2"
+        android:layout_alignEnd="@+id/p2" />
+    <TextView
+        android:text="A"
+        android:textColor="#ad15aa"
+        android:id="@+id/a"
+        android:textSize="34sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/p1"
+        android:layout_alignRight="@+id/h"
+        android:layout_alignEnd="@+id/h" />
+    <TextView
+        android:layout_above="@id/a"
+        android:text="H"
+        android:textColor="#d00e0e"
+        android:id="@+id/h"
+        android:layout_centerHorizontal="true"
+        android:textSize="34sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="Welcome to use the app"
+        android:textColor="#e4a30b"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/version"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+</RelativeLayout>
