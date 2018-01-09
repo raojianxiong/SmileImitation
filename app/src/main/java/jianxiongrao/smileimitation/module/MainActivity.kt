@@ -64,7 +64,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
         init()
-        ScreenUtil.setTransparentStatusBar(this)
     }
 
     private fun init() {
